@@ -1,0 +1,35 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  padding-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+
+
+
+.landing-container button {
+  padding: 12px 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: #C8102E;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease , box-shadow 0,2s ease;
+}
+
+.landing-container button:hover {
+  background-color: #a20b24;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+body{
+background-color: #f8f9fa; 
+}

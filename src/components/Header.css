@@ -1,0 +1,23 @@
+.header img {
+  width: 130px;
+  height: auto;
+}
+
+
+.header span {
+  font-size: 1rem;
+  color: #C8102E;
+  /* line-height: 1.4; */
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1F1F1F; 
+  margin-bottom: 90px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(219, 25, 25, 0.3);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
