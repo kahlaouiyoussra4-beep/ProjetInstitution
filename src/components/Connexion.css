@@ -1,74 +1,111 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .connexion-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px 20px;
+
+  width: 100%;
+  max-width: 480px;
+
+  margin: 0 auto;       
+  padding: 30px 100px;     
+
   text-align: center;
-  max-width: 400px;
-  margin: 50px auto;
-  background-color: #f8f9fa;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  min-height: 600px;      
 }
 
+
 .connexion-container h1 {
-  font-size: 32px;
-  color: #1F1F1F;
+  font-size: 33px;
+  color: #4b4646;
   margin-bottom: 10px;
 }
 
 .connexion-container p {
   font-size: 14px;
-  color: #555;
-  margin-bottom: 25px;
+  color: #5b3434;
+  margin-bottom: 30px;
+  font-weight: 500;
+
+}
+.connexion-container form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .connexion-container input {
-  width: 100%;
-  padding: 12px 15px;
-  margin: 10px 0;
-  font-size: 15px;
+  width: 110%;
+  box-sizing: border-box;
+
+  padding: 17px 16px;     
+  margin: 12px 0;
+  font-size: 16px;
+
   border: 1px solid #ccc;
   border-radius: 8px;
   outline: none;
-  transition: border-color 0.3s ease;
+
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .connexion-container input:focus {
   border-color: #C8102E;
+  box-shadow: 0 0 0 3px rgba(200,16,46,0.15);
 }
 
+
 .connexion-container button {
-  width: 100%;
-  padding: 14px;
-  margin-top: 15px;
-  background-color: #C8102E;
+  width: 110%;
+  padding: 16px;
+  margin-top: 20px;
+
+  background: linear-gradient(135deg, #C8102E, #9a0b20);
   color: white;
-  font-size: 16px;
+
+  font-size: 18px;
   font-weight: 600;
+
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.3s ease;
+
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .connexion-container button:hover {
-  background-color: #9a0b20;
-  transform: scale(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 
-.forgot-password {
-  margin-top: 15px;
-  font-size: 14px;
+
+.forgot-password span{
+  margin-top: 20px;
+  font-size: 17px;
   color: #555;
+  font-weight: 600;
+
 }
 
 .forgot-password a {
   color: #C8102E;
   text-decoration: none;
   font-weight: 500;
+  font-size: 17px;
 }
 
 .forgot-password a:hover {
