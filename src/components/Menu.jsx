@@ -10,14 +10,13 @@ function Menu() {
     window.location.href = '/login';
   };
 
-  const handlePrint = () => {
-    window.print();
-  };
+  // const handlePrint = () => {
+  //   window.print();
+  // };
 
   return (
     <div className="menu-page">
 
-      {/* SIDEBAR */}
       <div className="sidebar-container">
 
         <div className="back-btn" onClick={() => window.history.back()}>

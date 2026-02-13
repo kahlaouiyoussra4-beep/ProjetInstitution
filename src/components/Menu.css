@@ -107,16 +107,18 @@
 .content-area {
   flex: 1;
   padding: 60px;
+  text-align: center;
+
 }
 
 .content-area h1 {
-  font-size: 28px;
+  font-size: 40px;
   color: #460e52;
   margin-bottom: 15px;
 }
 
 .content-area p {
-  font-size: 16px;
+  font-size: 17px;
   color: #333;
 }
 .stats-container{
@@ -133,6 +135,9 @@
   padding:25px;
   border-radius:12px;
   box-shadow:0 5px 15px rgba(0,0,0,0.08);
+  top: 200px;
+  position: relative;
+
 }
 
 .stat-card h3{
@@ -150,14 +155,19 @@
 .activity-box{
   margin-top:40px;
   background:white;
-  padding:25px;
+  padding:25px 0px ;
   border-radius:12px;
   box-shadow:0 5px 15px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+  position: relative;
+  top: 400px;
+  
 }
 
 .activity-box h2{
   color:#460e52;
   margin-bottom:15px;
+  font-size: 25px;
 }
 
 .activity-box ul{
@@ -166,6 +176,9 @@
 
 .activity-box li{
   margin-bottom:8px;
+  list-style: none;
+  font-size: 20px;
+  flex-direction: column;
 }
 
 .quick-actions{
