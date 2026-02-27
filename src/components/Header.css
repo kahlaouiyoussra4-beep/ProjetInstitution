@@ -17,7 +17,7 @@
 
 
 .header span {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #C8102E;
   /* line-height: 1.4; */
   font-weight: 500;
@@ -25,11 +25,13 @@
 }
 
 .header h2 {
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 700;
   color: #1F1F1F; 
   margin-bottom: 90px;
   letter-spacing: 1px;
   text-shadow: 1px 1px 3px rgba(219, 25, 25, 0.3);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: 50px;
+  position: relative;
 }

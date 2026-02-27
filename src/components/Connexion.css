@@ -111,3 +111,114 @@ body {
 .forgot-password a:hover {
   text-decoration: underline;
 }
+body{
+  background: none;
+    overflow-x: hidden;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+
+}
+body::before{
+  content: "";
+  position: fixed;
+  right: -120px; 
+  top: 59%;
+  transform: translateY(-50%);
+  
+  width: 420px;
+  height: 420px;
+
+  background-image: url("src/assets/images.png");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+
+  opacity: 0.25; 
+    z-index: -1;
+
+  
+}
+body::after{
+  content: "";
+  position: fixed;
+  left: -110px; 
+  top: 59.3%;
+  transform: translateY(-50%);
+  
+  width: 380px;
+  height: 390px;
+
+  background-image: url("src/assets/images.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  opacity: 0.25; 
+    z-index: -1;
+
+  
+}
+.zellige{
+  position: fixed;
+  bottom: 0;
+  left:  -140px; ;
+  width: 750px;
+  top: 858px;
+  height: 390px; 
+  background-image: url("src/assets/images.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 400px 400px ; 
+  opacity: 0.25; 
+  pointer-events: none;
+  z-index: -1;
+}
+.zellige-right{
+  position: fixed;
+  bottom: 0;
+  right:  -390px; 
+  width: 640px;
+  top: 700px;
+  
+  height: 540px; 
+  background-image: url("src/assets/images.png");
+  background-repeat: no-repeat; 
+  background-position: bottom left;
+  background-size: 400px 400px; 
+  opacity: 0.25;
+  pointer-events: none; 
+  z-index: -1;
+}
+.zellige-side{
+    position: fixed;
+  bottom: 0;           
+  right: -60px;      
+  width: 640px;
+  height: 540px;
+  top:750px;
+  background-image: url("src/assets/images.png"); 
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 400px 400px;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: -1;
+}
+.zellige-left-side{
+    position: fixed;
+  bottom: 0;           
+  left: 200px;      
+  width: 640px;
+  height: 540px;
+  top:750px;
+  background-image: url("src/assets/images.png"); 
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 400px 400px;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: -1;
+
+}

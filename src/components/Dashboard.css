@@ -62,35 +62,25 @@ text-decoration: none;
 .submenu li {
   padding: 14px 12px;
   cursor: pointer;
-  color: #000000;
+  color: #333;
   font-weight: 500;
   border-radius: 8px;
   margin-bottom: 10px;
   font-size: 20px;
-  padding: 10px 15px;
+  padding: 20px 15px;
   transition: background-color 0.3s, color 0.3s;
   
   
 }
-li a {
-  text-decoration: none;
-    color: #000000;
-    display: block;
-    border-radius: 8px;
-    padding: 20px 15px;
-}
-.submenu li a.active-link{
-    color: white;
-    background-color: #c8a2c8;
-    font-weight: 600;
 
-}
 .submenu li:hover, .submenu li.active {
   background-color: #c8a2c8;
-  color: rgb(27, 13, 13);
-  
+  color: white;
 }
-
+.submenu li.active {
+  background-color: #c132c1;
+  color: white;
+}
 
 .sidebar-btn {
   padding: 16px;
@@ -203,4 +193,3 @@ li a {
   color:#460e52;
   margin-bottom:15px;
 }
-
