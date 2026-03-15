@@ -7,11 +7,14 @@ const userSchema = new mongoose.Schema({
   cnie: String,
   password: { type: String, required: true },
   droits: [String], 
-  actif: { type: Boolean, default: true },
+  isActive: { type: Boolean, default: true },
   role:{
     type:String,
-    enum:["admin","responsable","employe"],
+    enum:["ADM","responsable","employe"],
     default:"employe",
   }
 });
+
+
+
 module.exports = mongoose.models.User || mongoose.model("User", userSchema);

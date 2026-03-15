@@ -18,11 +18,19 @@ const ProjetSchema = new mongoose.Schema({
   composantes: { type: String, required: true },
   delai: { type: String, required: true },
   dateDebut: { type: Date, required: true },
-  dateFin: { type: Date, required: true },
+  dateFin: { type: Date, required: true,validate:{
+    validator:function(value){
+      return value>this.dateDebut;
+    },
+    message:"dateFin doit être aprés dateDebut"
+  } },
   avancementPhysique: { type: Number, min: 0, max: 100, required: true },
   avancementFinancier: { type: Number, min: 0, max: 100, required: true },
   observations: { type: String },
- 
+  utilisateur:{
+    type:String,
+    required:true
+  }
 }, 
 { timestamps: true });
 
