@@ -1,0 +1,157 @@
+/* PAGE BACKGROUND */
+/* ============================= */
+.fiche-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ============================= */
+/* CONTENT */
+/* ============================= */
+.detail-page {
+  flex: 1;
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ============================= */
+/* TITLE */
+/* ============================= */
+.detail-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 35px;
+  letter-spacing: 0.3px;
+}
+
+/* ============================= */
+/* MAIN CARD */
+/* ============================= */
+.detail-card {
+  width: 100%;
+  max-width: 1000px;
+  background: white;
+  border-radius: 16px;
+  padding: 45px 50px;
+  box-shadow:
+    0 40px 80px rgba(0,0,0,0.06),
+    0 5px 15px rgba(0,0,0,0.03);
+}
+
+/* ============================= */
+/* GRID INFO */
+/* ============================= */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 40px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.info-value {
+  font-size: 17px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* ============================= */
+/* SECTIONS */
+/* ============================= */
+.section {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+/* ============================= */
+/* TEXT BLOCK */
+/* ============================= */
+.text-block {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 18px 20px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #334155;
+}
+
+/* ============================= */
+/* PARTNERS */
+/* ============================= */
+.partenaire-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fafc;
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.partenaire-item:hover {
+  background: #eef2ff;
+  transform: translateX(5px);
+}
+
+/* ============================= */
+/* PROGRESS */
+/* ============================= */
+.progress-block {
+  margin-top: 15px;
+}
+
+.progress-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #7c3aed, #ec4899);
+  transition: width 0.4s ease;
+}
+
+/* ============================= */
+/* LOADING */
+/* ============================= */
+.loading {
+  margin-top: 120px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #64748b;
+}

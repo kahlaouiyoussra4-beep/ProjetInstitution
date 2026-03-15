@@ -1,0 +1,93 @@
+.fiches-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fiches-container {
+  flex: 1;
+  padding: 50px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.fiches-container h1 {
+  color: #460e52;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  
+}
+
+.form-row label {
+  font-weight: 600;
+  margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-row input.error,
+.form-row select.error,
+.form-row textarea.error {
+  border-color: red;
+}
+
+.error-msg {
+  color: red;
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.required {
+  color: red;
+}
+
+.partenaire-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.add-btn {
+  padding: 5px 12px;
+  cursor: pointer;
+  background-color: #C8102E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  /* width: 100%; */
+  padding: 18px 70px;
+  background: linear-gradient(135deg, #C8102E, #9a0b20);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
